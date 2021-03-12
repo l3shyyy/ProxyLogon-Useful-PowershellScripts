@@ -9,5 +9,5 @@ To run this command:
 NOTE: After executing, it is good practice to set back to restrcited
 
 2) To generate the log and export to CSV in the C:\Temp\ directory, type:<br />
-.\ScheduledTaskChecker.ps1 
-
+**.\ScheduledTaskChecker.ps1 
+**
