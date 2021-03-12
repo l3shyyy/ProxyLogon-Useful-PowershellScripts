@@ -4,7 +4,7 @@ A Simple Powershell script that exports Scheduled Tasks to the Temp Directory.
 
 To run this command: 
 
-1) Ensure that you can Execution Policy is allowed on your device:<br />
+1) Ensure Execution Policy is allowed on your device:<br />
 **Set-ExecutionPolicy Unrestricted**<br />
 NOTE: After executing, it is good practice to set back to restrcited
 
