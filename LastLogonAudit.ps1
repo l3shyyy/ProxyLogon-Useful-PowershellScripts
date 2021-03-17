@@ -1,0 +1,1 @@
+﻿Get-ADUser -Filter * -Property "LastLogonDate" | Export-CSV "C:\Temp\LastLogonDates.csv"
