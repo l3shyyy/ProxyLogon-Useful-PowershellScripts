@@ -1,1 +1,1 @@
-Get-ADGroup -Filter * -Property whenChanged, whenCreated | Export-Csv -Path C:\Temp\AdGroups.csv -NoTypeInformation
+Get-ADGroup -Filter * -Property whenChanged, whenCreated | Export-Csv -Path "$env:temp\AdGroups.csv" -NoTypeInformation
