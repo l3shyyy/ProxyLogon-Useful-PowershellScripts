@@ -6,7 +6,7 @@ Thank you for reading!
 # Scheduled-Task-Check
 **Description:** A Simple Powershell script that exports Scheduled Tasks to the Temp Directory. Can help in locating tasks scheduled by attackers for persistence on system.
 
-Usage: 
+**Usage:** <br />
 1) Ensure Execution Policy is allowed on your device:<br />
 **Set-ExecutionPolicy Unrestricted**<br />
 NOTE: After executing, it is good practice to set back to restrcited
@@ -17,7 +17,7 @@ NOTE: After executing, it is good practice to set back to restrcited
 # PCAL Audit (Password Change at Logon Audit)
 **Description:** A simple script you can run to verify what users are set to change their password at next logon. 
 
-Usage:<br /> 
+**Usage:**<br /> 
 **.\PCALAudit.ps1**
 
 Results will be found at C:\Temp\ChangePasswordAtNextLogon.csv
@@ -25,7 +25,7 @@ Results will be found at C:\Temp\ChangePasswordAtNextLogon.csv
 # Last Logon Audit
 **Description:** A simple Powershell script to show when the last time a user signed in was along with additional information about that user object. 
 
-Usage:<br /> 
+**Usage:**<br /> 
 .\LastLogonAudit.ps1
 
 Results will be found at C:\Temp\LastLogonDates.csv
