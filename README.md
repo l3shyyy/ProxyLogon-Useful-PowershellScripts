@@ -38,6 +38,7 @@ Please see usage on there GitHub
 - Test-ProxyLogon.ps1
 - ExchangeMitigations.ps1
 - http-vuln-cve2021-26855.nse
+- EOMT.ps1
 
 # http-vuln-cve2021-26855.nse
 I have not seen usage clearly described on the official MS GitHub. It is as follows assuming http-vuln-cve2021-26855.nse is in the same directory you are scanning from: <br /> 
