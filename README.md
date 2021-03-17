@@ -1,5 +1,5 @@
 # Introduction
-Hello! In light of the recent ProxyLogon attacks - I am keeping track of useful powershell scripts that may benefit system administrators. These sctiprs may vary, but all can be useful in some way, shape or form. I will do my best to continue to update these scripts as time goes on. 
+Hello! In light of the recent ProxyLogon attacks - I am keeping track of useful powershell scripts that may benefit system administrators. These scripts may vary and may not be useful to everyone, but may benefit outlier organizations. I will do my best to continue to update these scripts as time goes on. 
 
 Thank you for reading! 
 
