@@ -18,6 +18,6 @@ NOTE: After executing, it is good practice to set back to restrcited
 Description: A simple script you can run to verify what users are set to change their password at next logon. 
 
 Usage:<br /> 
-.\PCALAudit.ps1
+**.\PCALAudit.ps1**
 
 Results will be found at C:\Temp\ChangePasswordAtNextLogon.csv
