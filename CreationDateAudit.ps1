@@ -1,1 +1,1 @@
-﻿Get-ADUser -Filter * -Properties "whencreated" | Export-CSV "C:\Temp\whencreated.csv"
+﻿Get-ADUser -Filter * -Properties "whencreated" | Export-CSV "$env:temp\whencreated.csv" -NoTypeInformation

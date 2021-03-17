@@ -1,1 +1,1 @@
-﻿$DATE = (Get-Date).toString("yyyy-MM-dd"); Get-ScheduledTask | Get-ScheduledTaskInfo | Select TaskName,LastRunTime,NextRunTime,LastTaskResult | Export-Csv -Path C:\temp\"$DATE "ScheduledTasks.csv
+﻿$DATE = (Get-Date).toString("yyyy-MM-dd"); Get-ScheduledTask | Get-ScheduledTaskInfo | Select TaskName,LastRunTime,NextRunTime,LastTaskResult | Export-Csv -Path "$env:temp\$DATE ScheduledTasks.csv" -NoTypeInformation

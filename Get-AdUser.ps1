@@ -1,1 +1,1 @@
-Get-ADUser -Filter * -Property whenCreated, whenChanged | Export-Csv -Path C:\Temp\AdUsers.csv -NoTypeInformation
+Get-ADUser -Filter * -Property whenCreated, whenChanged | Export-Csv -Path "$env:temp\AdUsers.csv" -NoTypeInformation

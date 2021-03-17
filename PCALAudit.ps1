@@ -1,1 +1,1 @@
-﻿Get-ADUser -LDAPFilter "(pwdLastSet=0)" | Select SamAccountName,distinguishedName | Export-CSV "C:\Temp\ChangePasswordAtNextLogon.csv"
+﻿Get-ADUser -LDAPFilter "(pwdLastSet=0)" | Select SamAccountName,distinguishedName | Export-CSV "$env:temp\ChangePasswordAtNextLogon.csv" -notypeinformation
