@@ -40,10 +40,10 @@ Please see usage on there GitHub
 - http-vuln-cve2021-26855.nse
 
 # http-vuln-cve2021-26855.nse
-I have not seen usage clearly described on the official MS GitHub. It is as follows assuming http-vuln-cve2021-26855.nse is in the same directory you are scanning from: 
+I have not seen usage clearly described on the official MS GitHub. It is as follows assuming http-vuln-cve2021-26855.nse is in the same directory you are scanning from: <br /> 
 
-nmap -p 443 --script=http-vuln-cve2021-26855.nse exchange.domain.com
-or 
+nmap -p 443 --script=http-vuln-cve2021-26855.nse exchange.domain.com<br /> 
+or <br /> 
 nmap -p 443 --script=http-vuln-cve2021-26855.nse [Exchange WAN IP]  
 
  
