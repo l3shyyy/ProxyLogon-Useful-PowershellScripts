@@ -4,7 +4,7 @@ Hello! In light of the recent ProxyLogon attacks - I am keeping track of useful 
 Thank you for reading! 
 
 # Scheduled-Task-Check
-Description: A Simple Powershell script that exports Scheduled Tasks to the Temp Directory. 
+Description: A Simple Powershell script that exports Scheduled Tasks to the Temp Directory. Can help in locating tasks scheduled by attackers for persistence on system.
 
 Usage: 
 1) Ensure Execution Policy is allowed on your device:<br />
