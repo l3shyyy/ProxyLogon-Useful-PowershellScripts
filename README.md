@@ -34,8 +34,24 @@ Results will be found at C:\Temp\LastLogonDates.csv
 # Creation Date Audit
 **Description:** A simple Powershell script to show when a user account was created along with additional information about the user object. 
 
-**Usage:**<br /> 
+**Usage:**<br />
 .\CreationDateAudit.ps1
+
+------------------------------------------------------------------------------------------------------------------------------------
+Please check out https://github.com/adamrpostjr/cve-2021-27065 for the following scripts to collect newly created AD Users / AD Groups
+
+# Get AD Groups and when they were created (Get-AdGroup.ps1)
+**Description:** A simple script to collect AD Groups and when they were created. 
+
+**Usage:** <br />
+.\Get-AdGroup.ps1
+
+
+# Get AD Users and when they were created (Get-AdUser.ps1)
+**Description:**A simple script to collect AD Users and when they were created. 
+
+**Usage:** <br />
+.\Get-AdUser.ps1
 
 ------------------------------------------------------------------------------------------------------------------------------------
 From Official MS GitHub found at https://github.com/microsoft/CSS-Exchange/tree/main/Security. Only including files for convenience. 
