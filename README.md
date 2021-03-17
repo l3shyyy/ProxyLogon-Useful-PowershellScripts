@@ -17,7 +17,7 @@ NOTE: After executing, it is good practice to set back to restrcited
 # PCAL Audit (Password Change at Logon Audit)
 Description: A simple script you can run to verify what users are set to change their password at next logon. 
 
-Usage: 
+Usage:<br /> 
 .\PCALAudit.ps1
 
 Results will be found at C:\Temp\ChangePasswordAtNextLogon.csv
