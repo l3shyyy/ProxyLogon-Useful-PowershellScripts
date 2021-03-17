@@ -31,6 +31,11 @@ Results will be found at C:\Temp\ChangePasswordAtNextLogon.csv
 
 Results will be found at C:\Temp\LastLogonDates.csv
 
+# Scheduled-Task-Check
+**Description:** A simple Powershell script to show when a user account was created along with additional information about the user object. 
+
+**Usage:**<br /> 
+.\CreationDateAudit.ps1
 
 ------------------------------------------------------------------------------------------------------------------------------------
 From Official MS GitHub found at https://github.com/microsoft/CSS-Exchange/tree/main/Security. Only including files for convenience. 
