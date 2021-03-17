@@ -4,11 +4,9 @@ Hello! In light of the recent ProxyLogon attacks - I am keeping track of useful 
 Thank you for reading! 
 
 # Scheduled-Task-Check
-A Simple Powershell script that exports Scheduled Tasks to the Temp Directory. 
+Description: A Simple Powershell script that exports Scheduled Tasks to the Temp Directory. 
 
-
-To run this command: 
-
+Usage: 
 1) Ensure Execution Policy is allowed on your device:<br />
 **Set-ExecutionPolicy Unrestricted**<br />
 NOTE: After executing, it is good practice to set back to restrcited
@@ -17,7 +15,9 @@ NOTE: After executing, it is good practice to set back to restrcited
 **.\ScheduledTaskChecker.ps1**
 
 # PCAL Audit (Password Change at Logon Audit)
-A simple script you can run to verify what users are set to change their password at next logon. 
+Description: A simple script you can run to verify what users are set to change their password at next logon. 
 
 Usage: 
 .\PCALAudit.ps1
+
+Results will be found at C:\Temp\ChangePasswordAtNextLogon.csv
