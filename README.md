@@ -30,3 +30,20 @@ Results will be found at C:\Temp\ChangePasswordAtNextLogon.csv
 .\LastLogonAudit.ps1
 
 Results will be found at C:\Temp\LastLogonDates.csv
+
+
+------------------------------------------------------------------------------------------------------------------------------------
+From Official MS GitHub found at https://github.com/microsoft/CSS-Exchange/tree/main/Security. Only including files for convenience. 
+Please see usage on there GitHub 
+- Test-ProxyLogon.ps1
+- ExchangeMitigations.ps1
+- http-vuln-cve2021-26855.nse
+
+# http-vuln-cve2021-26855.nse
+I have not seen usage clearly described on the official MS GitHub. It is as follows assuming http-vuln-cve2021-26855.nse is in the same directory you are scanning from: 
+
+nmap -p 443 --script=http-vuln-cve2021-26855.nse exchange.domain.com
+or 
+nmap -p 443 --script=http-vuln-cve2021-26855.nse [Exchange WAN IP]  
+
+ 
