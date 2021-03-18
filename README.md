@@ -8,12 +8,12 @@ Ensure Execution Policy is allowed on your device:<br />
 NOTE: After executing, it is good practice to set back to restrcited
 
 # Scheduled-Task-Check
-**Description:** A Simple Powershell script that exports Scheduled Tasks to the Temp Directory. Can help in locating tasks scheduled by attackers for persistence on system.
+**Description:** A Simple Powershell script that exports Scheduled Tasks to the Desktop. Can help in locating tasks scheduled by attackers for persistence on system.
 
 **Usage:** <br />
 **.\ScheduledTaskChecker.ps1**
 
-Results will be found at C:\temp\[DATE]ScheduledTasks.csv
+Results will be found on your desktop.
 
 # PCAL Audit (Password Change at Logon Audit)
 **Description:** A simple script you can run to verify what users are set to change their password at next logon. 
@@ -21,7 +21,7 @@ Results will be found at C:\temp\[DATE]ScheduledTasks.csv
 **Usage:**<br /> 
 .\PCALAudit.ps1
 
-Results will be found at C:\Temp\ChangePasswordAtNextLogon.csv
+Results will be found on your desktop.
 
 # Last Logon Audit
 **Description:** A simple Powershell script to show when the last time a user signed in was along with additional information about that user object. 
@@ -29,13 +29,15 @@ Results will be found at C:\Temp\ChangePasswordAtNextLogon.csv
 **Usage:**<br /> 
 .\LastLogonAudit.ps1
 
-Results will be found at C:\Temp\LastLogonDates.csv
+Results will be found on your desktop.
 
 # Creation Date Audit
 **Description:** A simple Powershell script to show when a user account was created along with additional information about the user object. 
 
 **Usage:**<br />
 .\CreationDateAudit.ps1
+
+Results will be found on your desktop.
 
 ------------------------------------------------------------------------------------------------------------------------------------
 Please check out https://github.com/adamrpostjr/cve-2021-27065 for the following scripts to collect newly created AD Users / AD Groups
@@ -46,12 +48,16 @@ Please check out https://github.com/adamrpostjr/cve-2021-27065 for the following
 **Usage:** <br />
 .\Get-AdGroup.ps1
 
+Results will be found on your desktop.
+
 
 # Get AD Users and when they were created (Get-AdUser.ps1)
 **Description:**A simple script to collect AD Users and when they were created. 
 
 **Usage:** <br />
 .\Get-AdUser.ps1
+
+Results will be found on your desktop.
 
 ------------------------------------------------------------------------------------------------------------------------------------
 From Official MS GitHub found at https://github.com/microsoft/CSS-Exchange/tree/main/Security. Only including files for convenience. 
